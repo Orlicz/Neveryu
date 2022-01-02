@@ -34,7 +34,7 @@ export function init() {
   camera.lookAt(new THREE.Vector3(0, 0, 0));
 
   // create a scene, that will hold all our elements such as objects, cameras and lights.
-  var scene = new THREE.Scene();
+  scene = new THREE.Scene();
 
   // create the ground plane
   var textureGrass = new THREE.TextureLoader().load("../assets/textures/ground/grasslight-big.jpg");

@@ -1672,7 +1672,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #60538a;
+  background: #ff6c6e;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2665,6 +2665,19 @@ body {
   .post-body {
     text-align: justify;
   }
+}
+#weather-wrapper {
+  position: fixed;
+  top: 0;
+  right: 10px;
+  width: 150px;
+  z-index: 2;
+}
+#weather-wrapper .s-sticker-cond img {
+  max-width: max-content;
+}
+#weather-wrapper #weather-view-he {
+  height: auto !important;
 }
 .reward-all {
   max-width: 650px;

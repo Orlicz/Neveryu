@@ -542,6 +542,246 @@ for (var L = 0; L < C.length; L++) {
             
               
                 
+                <a class="post-title-link" href="/2018/06/18/vue-prerender/" itemprop="url">
+                  Vue 服务端渲染 or 预渲染
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2018-06-18T16:25:24+08:00" content="2018-06-18">
+              2018-06-18
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/前端/" itemprop="url" rel="index">
+                    <span itemprop="name">前端</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+<!-- 自定义，用于添加摘要图片，文章中不显示 -->
+        
+<!-- 自定义结束 -->
+        
+          <h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>关于 Vue 的 SPA 说的已经太多太多了，它为我们带来了极速的开发体验，极强的开发效率。可能唯一有些许不足的就是，当我们对 SEO 很在乎的时候，我们如何去处理 SEO 的需求。</p>
+<p>关于 SEO ，Vue 也有现成的解决方案： <a href="https://ssr.vuejs.org/zh/">Vue 服务端渲染</a></p>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2018/06/18/vue-prerender/" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2018/06/01/js-this/" itemprop="url">
+                  关于 JavaScript 中 this 的详细总结
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2018-06-01T03:25:24+08:00" content="2018-06-01">
+              2018-06-01
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/前端/" itemprop="url" rel="index">
+                    <span itemprop="name">前端</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+<!-- 自定义，用于添加摘要图片，文章中不显示 -->
+        
+<!-- 自定义结束 -->
+        
+          <p id="div-border-top-blue">在 JavaScript 中，函数中的 this 指向，很多同学总是理不清楚【这必然会带来一些问题】。确实，JavaScript 中，函数的 this 指向比较复杂多变。它和你调用的方式有关系，和 <strong>严格模式</strong> 或者 <strong>非严格模式</strong> 有关系，和你是否使用了箭头函数有关系，和你在使用函数时是否传入了 this 有关系，和你是否主动修改了调用对象有关系。</p>
+
+<ul>
+<li>在绝大多数情况下，函数的调用方式决定了 <code>this</code> 的值。<code>this</code> 不能再执行期间被赋值，并且在每次函数被调用时 <code>this</code> 的值也可能会不同。<code>ES5</code> 引入了 <code>bind</code> 方法来设置函数的 <code>this</code> 值，<a href="https://blog.csdn.net/csdn_yudong/article/details/78730844">关于bind和call可以看我的文章</a>，而不用考虑函数如何被调用的，<code>ES2015</code> 引入了支持 <code>this</code> 词法解析的箭头函数（它在闭合的执行上下文内设置 <code>this</code> 的值）。</li>
+</ul>
+<ul>
+<li>与其他语言相比，<strong>函数的 <code>this</code> 关键字</strong>在 <code>JavaScript</code> 中的表现略有不同，此外，在 严格模式 和 非严格模式之间也会有一些差别。</li>
+</ul>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2018/06/01/js-this/" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
                 <a class="post-title-link" href="/2018/05/01/vue-music/" itemprop="url">
                   vue2.x 做一个音乐app
                 </a>
@@ -1467,238 +1707,6 @@ for (var L = 0; L < C.length; L++) {
 
 
     
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/03/20/amd-cmd/" itemprop="url">
-                  AMD，CMD 规范详解
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-03-20T03:25:24+08:00" content="2017-03-20">
-              2017-03-20
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/前端/" itemprop="url" rel="index">
-                    <span itemprop="name">前端</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-<!-- 自定义，用于添加摘要图片，文章中不显示 -->
-        
-<!-- 自定义结束 -->
-        
-          <p>当我们了解了 <a href="https://neveryu.github.io/2017/03/07/commonjs/">CommonJS</a> 以后，<code>CommonJS</code> 规范加载模块是同步的，也就是说，只有加载完成，才能执行后面的操作。<br>由于 <code>Node.js</code> 主要用于服务器编程，模块文件一般都已经存在于本地硬盘，所以加载起来比较快，不用考虑非同步加载的方式，所以 <code>CommonJS</code> 规范比较适用。<br>但是，如果是浏览器环境，要从服务器端加载模块，这时就必须采用非同步模式。为什么呢？</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2017/03/20/amd-cmd/" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/03/07/commonjs/" itemprop="url">
-                  CommonJS 详细介绍
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-03-07T13:25:24+08:00" content="2017-03-07">
-              2017-03-07
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/前端/" itemprop="url" rel="index">
-                    <span itemprop="name">前端</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-<!-- 自定义，用于添加摘要图片，文章中不显示 -->
-        
-<!-- 自定义结束 -->
-        
-          <h2 id="CommonJS-规范与实现"><a href="#CommonJS-规范与实现" class="headerlink" title="CommonJS 规范与实现"></a>CommonJS 规范与实现</h2><p>正如当年为了统一 JavaScript 语言标准，人们制定了 ECMAScript 规范一样，如今为了统一 JavaScript 在浏览器之外的实现，CommonJS 诞生了。CommonJS 试图定义一套普通应用程序使用的 API，从而填补 JavaScript 标准库过于简单的不足。CommonJS 的终极目标是制定一个像 C++ 标准库一样的规范，使得基于 CommonJS API 的应用程序可以在不同的环境下运行，就像用 C++ 编写的应用程序可以使用不同的编译器和运行时函数库一样。为了保持中立，CommonJS 不参与标准库实现，其实现交给像 Node.js 之类的项目来完成。下图是 CommonJS 的各种实现。</p>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2017/03/07/commonjs/" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
@@ -1743,7 +1751,7 @@ for (var L = 0; L < C.length; L++) {
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">36</span>
+              <span class="site-state-item-count">38</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -1760,7 +1768,7 @@ for (var L = 0; L < C.length; L++) {
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">19</span>
+                <span class="site-state-item-count">20</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -1904,7 +1912,7 @@ for (var L = 0; L < C.length; L++) {
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count" style="color: #e90f92;">全站共 156k 字</span>
+  <span class="post-count" style="color: #e90f92;">全站共 158k 字</span>
 </div>
         
       </div>

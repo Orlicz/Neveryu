@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="JavaScript," />
+  <meta name="keywords" content="Hexo, NexT, Neveryu, Never_yu, Blog, Node.js, Git, PHP, JAVA, JAVASCRIPT, HTML, CSS, jQuery, Angular, Vue, React" />
 
 
 
@@ -86,16 +86,15 @@
 
 
 
-<meta name="description" content="当我们了解了 CommonJS 以后，CommonJS 规范加载模块是同步的，也就是说，只有加载完成，才能执行后面的操作。由于 Node.js 主要用于服务器编程，模块文件一般都已经存在于本地硬盘，所以加载起来比较快，不用考虑非同步加载的方式，所以 CommonJS 规范比较适用。但是，如果是浏览器环境，要从服务器端加载模块，这时就必须采用非同步模式。为什么呢？">
-<meta property="og:type" content="article">
-<meta property="og:title" content="AMD，CMD 规范详解">
-<meta property="og:url" content="https://neveryu.github.io/2017/03/20/amd-cmd/index.html">
+<meta name="description" content="Stay Hungry,Stay Foolish">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Never_yu's Blog">
+<meta property="og:url" content="https://neveryu.github.io/tags/感想/index.html">
 <meta property="og:site_name" content="Never_yu's Blog">
-<meta property="og:description" content="当我们了解了 CommonJS 以后，CommonJS 规范加载模块是同步的，也就是说，只有加载完成，才能执行后面的操作。由于 Node.js 主要用于服务器编程，模块文件一般都已经存在于本地硬盘，所以加载起来比较快，不用考虑非同步加载的方式，所以 CommonJS 规范比较适用。但是，如果是浏览器环境，要从服务器端加载模块，这时就必须采用非同步模式。为什么呢？">
-<meta property="og:updated_time" content="2018-06-17T09:42:56.151Z">
+<meta property="og:description" content="Stay Hungry,Stay Foolish">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="AMD，CMD 规范详解">
-<meta name="twitter:description" content="当我们了解了 CommonJS 以后，CommonJS 规范加载模块是同步的，也就是说，只有加载完成，才能执行后面的操作。由于 Node.js 主要用于服务器编程，模块文件一般都已经存在于本地硬盘，所以加载起来比较快，不用考虑非同步加载的方式，所以 CommonJS 规范比较适用。但是，如果是浏览器环境，要从服务器端加载模块，这时就必须采用非同步模式。为什么呢？">
+<meta name="twitter:title" content="Never_yu's Blog">
+<meta name="twitter:description" content="Stay Hungry,Stay Foolish">
 
 
 
@@ -116,12 +115,12 @@
 
 
 
-  <link rel="canonical" href="https://neveryu.github.io/2017/03/20/amd-cmd/"/>
+  <link rel="canonical" href="https://neveryu.github.io/tags/感想/"/>
 
 
 <!-- 网页加载条 -->
 <script src="/js/src/pace.min.js"></script>
-  <title> AMD，CMD 规范详解 | Never_yu's Blog </title>
+  <title> 标签: 感想 | Never_yu's Blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -142,7 +141,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left page-post-detail ">
+  <div class="container one-collumn sidebar-position-left  ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -519,251 +518,46 @@ for (var L = 0; L < C.length; L++) {
           <div id="content" class="content">
             
 
-  <div id="posts" class="posts-expand">
-    
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <div id="posts" class="posts-collapse">
+    <div class="collection-title">
+      <h2 >
+        感想
+        <small>标签</small>
+      </h2>
+    </div>
 
     
-      <header class="post-header">
+      
 
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h1 class="post-title">
         
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
+            <a class="post-title-link" href="/2022/06/01/thoughts-1/" itemprop="url">
               
-                AMD，CMD 规范详解
+                <span itemprop="name">在公共部门做通用服务的一些感悟</span>
               
-            
-          </h1>
+            </a>
         
+      </h1>
 
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2017-03-20T03:25:24+08:00" content="2017-03-20">
-              2017-03-20
-            </time>
-          </span>
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2022-06-01T06:00:00+08:00"
+              content="2022-06-01" >
+          06-01
+        </time>
+      </div>
 
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/前端/" itemprop="url" rel="index">
-                    <span itemprop="name">前端</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-
-          
-
-          
-          
-
-          
-              &nbsp; | &nbsp;
-              <span class="page-pv">热度
-              <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>℃
-              </span>
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        <p>当我们了解了 <a href="https://neveryu.github.io/2017/03/07/commonjs/">CommonJS</a> 以后，<code>CommonJS</code> 规范加载模块是同步的，也就是说，只有加载完成，才能执行后面的操作。<br>由于 <code>Node.js</code> 主要用于服务器编程，模块文件一般都已经存在于本地硬盘，所以加载起来比较快，不用考虑非同步加载的方式，所以 <code>CommonJS</code> 规范比较适用。<br>但是，如果是浏览器环境，要从服务器端加载模块，这时就必须采用非同步模式。为什么呢？</p>
-<a id="more"></a>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> math = <span class="built_in">require</span>(<span class="string">'math'</span>);</span><br><span class="line">math.add(<span class="number">2</span>, <span class="number">3</span>);</span><br></pre></td></tr></table></figure>
-<p>第二行 <code>math.add(2, 3)</code>，在第一行 <code>require(&#39;math&#39;)</code> 之后运行，因此必须等 <code>math.js</code> 加载完成。也就是说，如果加载时间很长，整个应用就会停在那里等。<br>对于浏览器，这是一个大问题，因为模块都放在服务器端。等待时间取决于网速的快慢，可能要等很长时间，浏览器处理“假死”状态。</p>
-<p>因此，浏览器端的模块，不能采用“同步加载”，只能采用“异步加载”。</p>
-<h1 id="AMD"><a href="#AMD" class="headerlink" title="AMD"></a>AMD</h1><p><a href="https://github.com/amdjs/amdjs-api/blob/master/AMD.md" target="_blank" rel="external">AMD 规范</a> 则是异步加载模块，允许指定回调函数。因此浏览器端一般采用 <a href="https://github.com/amdjs/amdjs-api/blob/master/AMD.md" target="_blank" rel="external">AMD 规范</a>。<br><code>AMD(Asynchronous module definition)</code>： <span id="inline-green">异步模块定义。</span></p>
-<p>类似的还有 <code>CommonJS Modules/2.0</code> 规范，是 <code>BravoJS</code> 在推广过程中对模块定义的规范化产出。<br><code>CMD(Common module definition)</code>：<span id="inline-blue">通用模块定义。</span></p>
-<p>目前这些规范的实现都能达成<strong>浏览器端模块化开发的目的</strong>。</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">服务端JS</th>
-<th style="text-align:center">浏览器端JS</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">相同的代码需要多次执行</td>
-<td style="text-align:center">代码需要从一个服务器端分发到多个客户端执行</td>
-</tr>
-<tr>
-<td style="text-align:center">CPU 和内存资源是瓶颈</td>
-<td style="text-align:center">宽带是瓶颈</td>
-</tr>
-<tr>
-<td style="text-align:center">加载时从磁盘中加载</td>
-<td style="text-align:center">加载时需要通过网络加载</td>
-</tr>
-</tbody>
-</table>
-<p>AMD 的诞生，就是为了解决这两个问题：<br>1.实现 js 文件的异步加载，避免网页失去响应<br>2.管理模块之间的依赖性，便于代码的编写和维护</p>
-<p>AMD(异步模块定义)主要为前端 JS 的表现指定规范。它采用异步方式加载模块，模块的加载不影响它后面语句的运行。所有依赖这个模块的语句，都定义在一个回调函数中，等到加载完成之后，这个回调函数才会运行。</p>
-<p>AMD 也采用 <a href="https://github.com/amdjs/amdjs-api/wiki/require" target="_blank" rel="external">require()</a> 语句加载模块，但是不同于 CommonJS，它要求两个参数：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">require</span>([<span class="built_in">module</span>], callback);</span><br></pre></td></tr></table></figure></p>
-<p>第一个参数[module]，是一个数组，里面的成员就是要加载的模块；第二个参数 callback，则是加载成功之后的回调函数：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">require</span>([<span class="string">'math'</span>], <span class="function"><span class="keyword">function</span> (<span class="params">math</span>) </span>&#123;</span><br><span class="line">  math.add(<span class="number">2</span>, <span class="number">3</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></p>
-<p>实现 AMD 规范的加载器其实是挺多的，目前，主要有两个 Javascript 库实现了 AMD 规范：<a href="https://github.com/requirejs/requirejs" target="_blank" rel="external">require.js</a> 和 <a href="https://github.com/cujojs/curl" target="_blank" rel="external">curl.js</a>。不过多数人还是用 require.js 。<br>另外如果对 ES6 的模块感兴趣，可以考虑 <a href="http://github.com/hax/my.js" target="_blank" rel="external">my.js</a> ，是按照 ES6 草案的 module/loader 规范实现的。</p>
-<p><a href="https://github.com/amdjs/amdjs-api/wiki/AMD" target="_blank" rel="external">AMD</a> 是 <a href="https://github.com/requirejs/requirejs" target="_blank" rel="external">require.js</a> 在推广过程中对模块定义的规范化产出。</p>
-<p>推荐学习 <a href="http://requirejs.org/" target="_blank" rel="external">require.js</a>。</p>
-<h2 id="AMD-模块的写法"><a href="#AMD-模块的写法" class="headerlink" title="AMD 模块的写法"></a>AMD 模块的写法</h2><p><a href="https://github.com/requirejs/requirejs" target="_blank" rel="external">require.js</a> 加载的模块，采用 AMD 规范。也就是说，模块必须按照 AMD 的规定来写。<br>具体来说，就是模块必须采用特定的 define() 函数来定义。如果一个模块不依赖其他模块。那么可以直接定义在 define() 函数之中。<br>假定现在有一个 math.js 文件，它定义了一个 math 模块。那么，math.js 就要这样写：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// math.js</span></span><br><span class="line">define(<span class="function"><span class="keyword">function</span> (<span class="params"></span>)</span>&#123;</span><br><span class="line">　<span class="keyword">var</span> add = <span class="function"><span class="keyword">function</span> (<span class="params">x,y</span>)</span>&#123;</span><br><span class="line">　　<span class="keyword">return</span> x+y;</span><br><span class="line">　&#125;;</span><br><span class="line">　<span class="keyword">return</span> &#123;</span><br><span class="line">　　add: add</span><br><span class="line">　&#125;;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></p>
-<p>加载方法如下：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// main.js</span></span><br><span class="line"><span class="built_in">require</span>([<span class="string">'math'</span>], <span class="function"><span class="keyword">function</span> (<span class="params">math</span>)</span>&#123;</span><br><span class="line">　alert(math.add(<span class="number">1</span>,<span class="number">1</span>));</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></p>
-<p>如果这个模块还依赖其他模块，那么 define() 函数的第一个参数，必须是一个数组，指明该模块的依赖性。<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">define([<span class="string">'myLib'</span>], <span class="function"><span class="keyword">function</span>(<span class="params">myLib</span>)</span>&#123;</span><br><span class="line">　<span class="function"><span class="keyword">function</span> <span class="title">foo</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">　　myLib.doSomething();</span><br><span class="line">　&#125;</span><br><span class="line">　<span class="keyword">return</span> &#123;</span><br><span class="line">　　foo : foo</span><br><span class="line">　&#125;;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></p>
-<p>当 require() 函数加载上面这个模块的时候，就会先加载 myLib.js 文件。</p>
-<h2 id="加载非规范的模块"><a href="#加载非规范的模块" class="headerlink" title="加载非规范的模块"></a>加载非规范的模块</h2><p>理论上，<a href="https://github.com/requirejs/requirejs" target="_blank" rel="external">require.js</a> 加载的模块，必须是按照 <a href="https://github.com/amdjs/amdjs-api/blob/master/AMD.md" target="_blank" rel="external">AMD 规范</a>、用 define() 函数定义的模块。但是实际上，虽然已经有一部分流行的函数库（比如 jQuery ）符合 AMD 规范，更多的库并不符合。那么，require.js 是否能够加载非规范的模块呢？<br>回答是可以的。<br>这样的模块在用 require() 加载之前，要先用 require.config() 方法，定义它们的一些特征。<br>举例来说，underscore 和 backbone 这两个库，都没有采用 AMD 规范编写。如果要加载它们的话，必须先定义它们的特征。<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">require</span>.config(&#123;</span><br><span class="line">　shim: &#123;</span><br><span class="line">　　<span class="string">'underscore'</span>: &#123;</span><br><span class="line">　　　exports: <span class="string">'_'</span></span><br><span class="line">　　&#125;,</span><br><span class="line">　　<span class="string">'backbone'</span>: &#123;</span><br><span class="line">　　　deps: [<span class="string">'underscore'</span>, <span class="string">'jquery'</span>],</span><br><span class="line">　　　exports: <span class="string">'Backbone'</span></span><br><span class="line">　　&#125;</span><br><span class="line">　&#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></p>
-<p>require.config() 接受一个配置对象，这个对象除了有前面说过的 paths 属性之外，还有一个 shim 属性，专门用来配置不兼容的模块。具体来说，每个模块要定义：<br>（1）exports 值（输出的变量名），表明这个模块外部调用时的名称；<br>（2）deps 数组，表明该模块的依赖性。<br>比如，jQuery 的插件可以这样定义：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">shim: &#123;</span><br><span class="line">　<span class="string">'jquery.scroll'</span>: &#123;</span><br><span class="line">　　deps: [<span class="string">'jquery'</span>],</span><br><span class="line">　　exports: <span class="string">'jQuery.fn.scroll'</span></span><br><span class="line">　&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<h1 id="CMD"><a href="#CMD" class="headerlink" title="CMD"></a>CMD</h1><p><a href="https://github.com/seajs/seajs/issues/277" target="_blank" rel="external">CMD</a> 是 <a href="https://github.com/seajs/seajs" target="_blank" rel="external">sea.js</a> 在推广过程中对模块定义的规范化产出。</p>
-<h3 id="CMD-模块定义"><a href="#CMD-模块定义" class="headerlink" title="CMD 模块定义"></a>CMD 模块定义</h3><p>在 CMD 规范中，一个模块就是一个文件。define 是一个全局函数，用来定义模块。<br>define 接受 factory 参数，factory 可以是一个函数，也可以是一个对象或字符串。<br>factory 为对象、字符串时，表示模块的接口就是该对象、字符串。比如可以定义一个 JSON 数据模块：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">define(&#123;<span class="string">"foo"</span>: <span class="string">"bar"</span>&#125;);</span><br></pre></td></tr></table></figure></p>
-<p>也可以通过字符串定义模板模块：<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">define(<span class="string">'I am a template.My name is &#123;&#123;name&#125;&#125;.'</span>);</span><br></pre></td></tr></table></figure></p>
-<p>factory 为函数时，表示是模块的构造方法。执行该构造方法，可以得到模块向外提供的接口。<br>factory 是一个函数，有三个参数，function(require, exports, module)<br>1、require 是一个方法，接受模块标识作为唯一参数，用来获取其他模块提供的接口：require(id)<br>2、exports 是一个对象，用来向外提供模块接口<br>3、module 是一个对象，上面存储了与当前模块相关联的一些属性和方法<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">define(<span class="function"><span class="keyword">function</span>(<span class="params">require, exports, module</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">var</span> a = <span class="built_in">require</span>(<span class="string">'./a'</span>);</span><br><span class="line">  a.doSomething();</span><br><span class="line">  <span class="comment">// 依赖就近书写，什么时候用到什么时候引入</span></span><br><span class="line">  <span class="keyword">var</span> b = <span class="built_in">require</span>(<span class="string">'./b'</span>);</span><br><span class="line">  b.doSomething();</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></p>
-<p>建议写一写 SeaJS 的 CMD 规范，与 AMD 非常类似，在国内的影响力非常大，但是个人觉得 SeaJS 比 RequireJS 好很多，另外由于是国人开发的，交流也非常方便，可以看到 github 上的更新、互动非常频繁。</p>
-<h1 id="AMD-与-CMD-的区别"><a href="#AMD-与-CMD-的区别" class="headerlink" title="AMD 与 CMD 的区别"></a>AMD 与 CMD 的区别</h1><p>区别：</p>
-<ol>
-<li>对于依赖的模块，AMD 是<strong>提前执行</strong>，CMD 是<strong>延迟执行</strong>。不过 RequireJS 从2.0开始，也改成了可以延迟执行（根据写法不同，处理方式不同）。CMD 推崇 as lazy as possible.</li>
-<li>CMD 推崇<strong>依赖就近</strong>，AMD 推崇<strong>依赖前置</strong></li>
-</ol>
-
-      
-    </div>
-
-    <div>
-      
-        
-
-      
-    </div>
-
-    <div>
-      
-        
-
-<blockquote class="blockquote-center" style="color: #ccc;">
-    -------------本文结束 <i class="fa fa-apple"></i> 感谢您的阅读-------------
-</blockquote>
-
-  <span id="inline-green" style="border-radius:3px;">作者</span>：<a class="link-blue" href="https://github.com/Neveryu" target="_blank">Neveryu</a><br/>有问题请 <a class="link-blue" href="https://neveryu.github.io/guestbook" target="_blank">留言</a> 或者私信我的 <a class="link-blue" href="http://weibo.com/Neveryu" target="_blank">微博</a>。
-
-  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
-    <div>满分是10分的话，这篇文章你给几分</div>
-    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
-      <span>赏</span>
-    </button>
-    <div id="QR" style="display: none;">
-      
-        <div id="wechat" style="display: inline-block">
-          <img id="wechat_qr" src="/reward/reward_wechat.png" alt="Never_yu WeChat Pay"/>
-          <p>微信打赏</p>
-        </div>
-      
-      
-        <div id="alipay" style="display: inline-block">
-          <img id="alipay_qr" src="/reward/reward_alipay.png" alt="Never_yu Alipay"/>
-          <p>支付宝打赏</p>
-        </div>
-      
-    </div>
-  </div>
-
-
-      
-    </div>
-
-    <footer class="post-footer">
-      
-        <div class="post-tags">
-          
-            <a href="/tags/JavaScript/" rel="tag"><i class="fa fa-tag"></i> JavaScript</a>
-          
-        </div>
-      
-
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-              <a href="/2017/03/07/commonjs/" rel="next" title="CommonJS 详细介绍">
-                <i class="fa fa-chevron-left"></i> CommonJS 详细介绍
-              </a>
-            
-          </div>
-
-          <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2017/04/10/npm/" rel="prev" title="npm 全面介绍">
-                npm 全面介绍 <i class="fa fa-chevron-right"></i>
-              </a>
-            
-          </div>
-        </div>
-      
-
-      
-      
-    </footer>
+    </header>
   </article>
 
 
-
-    <div class="post-spread">
-      
-        <!-- JiaThis Button BEGIN -->
-<div class="jiathis_style">
-  <a class="jiathis_button_tsina"></a>
-  <a class="jiathis_button_tqq"></a>
-  <a class="jiathis_button_weixin"></a>
-  <a class="jiathis_button_cqq"></a>
-  <a class="jiathis_button_douban"></a>
-  <a class="jiathis_button_renren"></a>
-  <a class="jiathis_button_qzone"></a>
-  <a class="jiathis_button_kaixin001"></a>
-  <a class="jiathis_button_copy"></a>
-  <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank"></a>
-  <a class="jiathis_counter_style"></a>
-</div>
-<script type="text/javascript" >
-  var jiathis_config={
-    hideMore:false
-  }
-</script>
-<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
-<!-- JiaThis Button END -->
-
-      
-    </div>
+    
   </div>
+
+  
 
 
           </div>
@@ -789,17 +583,8 @@ for (var L = 0; L < C.length; L++) {
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <section class="site-overview sidebar-panel ">
+      <section class="site-overview sidebar-panel  sidebar-panel-active ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/avatar/avatar.png"
@@ -911,17 +696,6 @@ for (var L = 0; L < C.length; L++) {
         
       </section>
 
-      
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-            
-              
-            
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#AMD"><span class="nav-number">1.</span> <span class="nav-text">AMD</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#AMD-模块的写法"><span class="nav-number">1.1.</span> <span class="nav-text">AMD 模块的写法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#加载非规范的模块"><span class="nav-number">1.2.</span> <span class="nav-text">加载非规范的模块</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#CMD"><span class="nav-number">2.</span> <span class="nav-text">CMD</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#CMD-模块定义"><span class="nav-number">2.0.1.</span> <span class="nav-text">CMD 模块定义</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#AMD-与-CMD-的区别"><span class="nav-number">3.</span> <span class="nav-text">AMD 与 CMD 的区别</span></a></li></ol></div>
-            
-          </div>
-        </section>
       
 
       
@@ -1052,10 +826,6 @@ for (var L = 0; L < C.length; L++) {
 
 
   
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
-
-
 
   
 
